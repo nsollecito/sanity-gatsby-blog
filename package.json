@@ -1,20 +1,23 @@
 {
   "private": true,
-  "name": "sanity-gatsby-blog",
-  "version": "1.0.17",
+  "name": "sanity-hugo",
+  "version": "0.1",
   "scripts": {
     "build": "lerna run build --parallel",
-    "dev": "lerna run dev --parallel",
+    "dev": "node studio/_data/hugo-md.js && lerna run dev --parallel",
     "format": "lerna run format",
     "build-studio": "lerna bootstrap && cd studio && npm run build",
-    "build-web": "lerna bootstrap && (cd studio && SANITY_AUTH_TOKEN=$SANITY_DEPLOY_STUDIO_TOKEN npm run graphql-deploy) && (cd web && npm run build)",
+    "build-web": "lerna bootstrap && (cd studio && SANITY_AUTH_TOKEN=$SANITY_DEPLOY_STUDIO_TOKEN npm run graphql-deploy) && (node_modules/.bin/hugo --serve -s web)",
     "graphql-deploy": "lerna run graphql-deploy",
     "lint": "lerna run lint",
     "postinstall": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@sanity/cli": "^2.0.0",
+    "@sanity/cli": "^2.4.0",
     "lerna": "^3.13.1"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0"
   }
 }

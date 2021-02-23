@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "Blog with Gatsby"
+    "name": "Sanity Hugo"
   },
   "api": {
     "projectId": "eazrcs7l",
@@ -14,9 +14,12 @@
     "@sanity/default-login",
     "@sanity/dashboard",
     "@sanity/desk-tool",
+    "@sanity/production-preview",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
-    "dashboard-widget-netlify"
+    "dashboard-widget-netlify",
+    "media",
+    "markdown"
   ],
   "parts": [
     {
@@ -26,6 +29,10 @@
     {
       "implements": "part:@sanity/base/theme/variables/override-style",
       "path": "./src/styles/variables.css"
+    },
+    {
+      "implements": "part:@sanity/production-preview/resolve-production-url",
+      "path": "./resolveProductionUrl.js"
     },
     {
       "name": "part:@sanity/desk-tool/structure",

@@ -24,6 +24,11 @@ export default {
       title: 'Image'
     },
     {
+      name: 'slack_username',
+      type: 'string',
+      title: 'Slack Username'
+    },
+    {
       name: 'bio',
       type: 'bioPortableText',
       title: 'Biography'
