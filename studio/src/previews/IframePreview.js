@@ -17,8 +17,9 @@ const assemblePostUrl = ({ displayed, options }) => {
     return ''
   }
   const dateSegment = format(publishedAt, 'YYYY/MM')
-  const path = `/${dateSegment}/${slug.current}/`
-  return `${previewURL}/blog${path}`
+  // const path = `/${dateSegment}/${slug.current}/`
+  const path = `/${slug.current}/`
+  return `${previewURL}/${path}`
 }
 
 const IframePreview = props => {
