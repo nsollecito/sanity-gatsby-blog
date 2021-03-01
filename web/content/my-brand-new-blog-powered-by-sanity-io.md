@@ -1,9 +1,9 @@
 ---
 date: 2019-03-29T11:02:17Z
-_id: 'fb5f90f7-7980-4b2a-b9da-35cd0a23829a'
-_rev: 'CdRw1t2LJ4brRDFF4OuGOS'
+_id: 'drafts.fb5f90f7-7980-4b2a-b9da-35cd0a23829a'
+_rev: 'e6iomi-59g-rew-3au-6vyjrnew7'
 _type: 'post'
-lastmod: 2021-03-01T02:38:12Z
+lastmod: 2021-03-01T03:24:20Z
 authors: 
 - name: My Name
   slug: my-name
@@ -11,7 +11,7 @@ blog: /blog
 categories: ['Structured content','Categorical advice']
 excerpt: Congratulations to me! I now have a blog powered by Hugo and Sanity.io.
 image: 'https://cdn.sanity.io/images/eazrcs7l/production/601ec1ad78c0c86575a82ef3a6f6442aa10a169a-1504x1000.png?w=600'
-publishDate: 2021-03-01T01:29:50.322Z
+publishDate: 2021-03-01T03:24:20.038Z
 slug: 'my-brand-new-blog-powered-by-sanity-io'
 title: 'My brand new blog powered by Sanity.io'
 ---

@@ -13,7 +13,7 @@ listenForChanges()
 
 // listen for updates
 function listenForChanges() {
-    const query = '*[]{documentId}'
+    const query = '*[]{}'
     const params = {}
     const options = {
         includeResult: false,
@@ -31,7 +31,7 @@ function listenForChanges() {
                         // console.log(JSON.stringify(item.result));
                         importItem(item.documentId, previousSlug)
                     }
-                }, 500)
+                }, 1000)
             }
         })
 }
