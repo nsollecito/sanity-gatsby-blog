@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/Users/nick.sollecito/Downloads/google-cloud-sdk/bin:/Users/nick.sollecito/.netlify/helper/bin:/Users/nick.sollecito/.serverless/bin:/Users/nick.sollecito/dd/devtools/bin:/usr/local/opt/coreutils/libexec/gnubin:/Users/nick.sollecito/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nick.sollecito/Documents/projects/cms-discovery/sanity/sanity-hugo/_data/package.json: Unexpected token } in JSON at position 333
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "HugoData",
+    "version": "1.0.0",
+    "description": "Keeps Hugo in sync with Sanity.io instance",
+    "main": "index.js",
+    "author": "nick.sollecito@datadoghq.com",
+    "license": "MIT",
+    "scripts": {
+      "dev": "hugo serve",
+      "build": "hugo"
+    },
+    "dependencies": {
+      "fs-extra": "9.1.0",
+      "json2yaml": "1.1.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

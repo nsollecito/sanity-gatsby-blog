@@ -1,6 +1,8 @@
 module.exports = {
   sanity: {
-    projectId: process.env.SANITY_PROJECT_ID || 'amu3cvo8',
-    dataset: process.env.SANITY_DATASET || 'production'
+    projectId: process.env.SANITY_PROJECT_ID || 'eazrcs7l',
+    dataset: process.env.SANITY_DATASET || 'production',
+    token: process.env.SANITY_TOKEN || '',
+    useCdn: true
   }
 }

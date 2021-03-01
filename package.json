@@ -4,7 +4,7 @@
   "version": "0.1",
   "scripts": {
     "build": "lerna run build --parallel",
-    "dev": "node studio/_data/hugo-md.js && lerna run dev --parallel",
+    "dev": "lerna run dev --parallel",
     "format": "lerna run format",
     "build-studio": "lerna bootstrap && cd studio && npm run build",
     "build-web": "lerna bootstrap && (cd studio && SANITY_AUTH_TOKEN=$SANITY_DEPLOY_STUDIO_TOKEN npm run graphql-deploy) && (node_modules/.bin/hugo --serve -s web)",

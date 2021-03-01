@@ -1,7 +1,8 @@
 {
   "packages": [
     "web",
-    "studio"
+    "studio",
+    "_data"
   ],
   "version": "1.0.0"
 }

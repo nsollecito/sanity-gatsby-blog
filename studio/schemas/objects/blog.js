@@ -6,7 +6,6 @@ export default {
     {
       name: 'name', 
       type: 'string', 
-      title: 'Blog Name',
       options: {
         layout: 'dropdown',
         list: [

@@ -1,14 +1,16 @@
 ---
-_createdAt: '2019-04-03T09:26:54Z'
+date: 2019-04-03T09:26:54Z
 _id: 'a72a6c41-4371-4cb9-94b6-10526c8c7cff'
-_rev: '1YSiyZRShC0n7WmN1jkBg5'
+_rev: 'P3c8hdHKeFujAXOqAEP6ey'
 _type: 'post'
-_updatedAt: '2021-02-20T02:26:03Z'
-authors: '[object Object]'
+lastmod: 2021-03-01T02:38:54Z
+authors: 
+- name: My Name
+  slug: my-name
 categories: ['Categorical advice','Structured content']
-excerpt: 'undefined'
-image: 'https://cdn.sanity.io/images/amu3cvo8/production/26310230bf276b6456ba36e2e232a9c7ae154b8e-1350x900.png?rect=60,385,610,515&w=600'
-publishedAt: '2019-04-08T22:00:00.000Z'
+excerpt: Structured content as fuel for creative exploration of new technology.
+image: 'https://cdn.sanity.io/images/eazrcs7l/production/d9f332007ee64327d5a5f1a8c08a0356886aa561-1920x1080.png?w=600'
+publishDate: 2019-04-08T22:00:00.000Z
 slug: 'exploration-powered-by-structured-content'
 title: 'Exploration powered by structured content'
 ---

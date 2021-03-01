@@ -7,8 +7,7 @@ export default {
   fields: [
     {
       name: 'blog',
-      type: 'blog',
-      title: 'Blog'
+      type: 'blog'
     },
     {
       name: 'title',
@@ -21,6 +20,7 @@ export default {
       type: 'slug',
       title: 'Slug',
       description: 'Some frontends will require a slug to be set to be able to show the post',
+      isUnique: true,
       options: {
         source: 'title',
         maxLength: 96
