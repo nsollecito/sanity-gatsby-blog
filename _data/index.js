@@ -22,6 +22,7 @@ function listenForChanges() {
 
     const subscription = client.listen(query, params, options)
         .subscribe(item => {
+            // console.log(JSON.stringify(item))
             if (item.previous && item.previous.slug !== undefined) {
                 let previousSlug = item.previous.slug
                 setTimeout(() => {
@@ -131,7 +132,8 @@ function parseItem(item) {
                     (author) => `\n- ${toMarkdown(item[field], {serializers})}`
                 )}`)
             }
-        } else if (field === 'excerpt' || field === 'blog') {
+        } else if (field === 'excerpt') {
+            // console.log(item[field])
             return (frontmatter += `\n${field}: ${toMarkdown(item[field], { serializers })}`)
         } else if (field === 'mainImage') {
             return (frontmatter += `\nimage: '${imageUrl(item[field]).width(600).url()}'`);

@@ -1,12 +1,13 @@
 ---
 date: 2019-03-29T21:57:52Z
 _id: '1a558cde-16fb-4362-8082-634468a1cc20'
-_rev: 'CdRw1t2LJ4brRDFF4Ou9mE'
+_rev: 'jH2x7o1D8Avg0qKetIomeA'
 _type: 'post'
-lastmod: 2021-03-01T02:37:19Z
+lastmod: 2021-03-06T03:45:34Z
 authors: 
 - name: My Name
   slug: my-name
+blog: '/blog'
 categories: ['Categorical advice']
 excerpt: It's so nice to have just one version of an image, and just let Sanity.io handle the rest.f
 image: 'https://cdn.sanity.io/images/eazrcs7l/production/cc93b69600f5cd1abce97fd0d4aa71793dbbba76-1350x900.png?w=600'

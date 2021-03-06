@@ -1,16 +1,16 @@
 ---
 date: 2021-02-27T02:58:48Z
 _id: 'a2884a9c-1e8b-48bd-9c7e-fd64e008011f'
-_rev: 'CdRw1t2LJ4brRDFF4Icd8q'
+_rev: 'lIX2YGW514RC2125qdQcua'
 _type: 'post'
-lastmod: 2021-02-27T21:00:00Z
+lastmod: 2021-03-06T03:45:43Z
 authors: 
 - name: My Name
   slug: my-name
-blog: /blog
+blog: '/blog'
 categories: ['Structured content']
 excerpt: Learn how to query and collect key EC2 resource metrics and status checks.
-image: 'https://cdn.sanity.io/images/amu3cvo8/production/c1a4f4fc78456285133eab32f2f909c284207e80-1263x870.png?w=600'
+image: 'https://cdn.sanity.io/images/eazrcs7l/production/c1a4f4fc78456285133eab32f2f909c284207e80-1263x870.png?w=600'
 publishDate: 2021-02-26T05:00:00.000Z
 slug: 'how-to-collect-ec2-metrics'
 title: 'How to collect EC2 metrics Test'

@@ -7,7 +7,7 @@ lastmod: 2021-02-24T13:01:46Z
 authors: 
 - name: My Name
   slug: my-name
-blog: /blog
+blog: '[object Object]'
 categories: ['Structured content']
 excerpt: This is an excerpt
 image: 'null'

@@ -1,12 +1,13 @@
 ---
 date: 2019-03-29T22:06:39Z
 _id: 'ddaf3c38-4159-4470-9da8-33e3ead2ec9f'
-_rev: '2bakqX8eU47Kx7vubFxEvt'
+_rev: '3p8Css1F5fRljRvMHXAzJx'
 _type: 'post'
-lastmod: 2021-03-01T02:39:15Z
+lastmod: 2021-03-06T03:45:17Z
 authors: 
 - name: My Name
   slug: my-name
+blog: '/blog/pup-culture'
 categories: ['Categorical advice']
 excerpt: Portable Text is a structured content approach to rich text with some pretty nifty capabilities.
 image: 'https://cdn.sanity.io/images/eazrcs7l/production/3896734a6bff5fedfd3a94a0e587d960b1b22a4c-2250x1500.png?w=600'

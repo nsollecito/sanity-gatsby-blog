@@ -6,8 +6,18 @@ export default {
   title: 'Blog Post',
   fields: [
     {
-      name: 'blog',
-      type: 'blog'
+      name: 'blog', 
+      title: 'Blog',
+      type: 'string', 
+      options: {
+        layout: 'dropdown',
+        list: [
+          {value: '/blog', title: 'The Monitor'},
+          {value: '/blog/engineering', title: 'Engineering'},
+          {value: '/blog/pup-culture', title: 'Pup Culture'},
+          {value: '/blog/community', title: 'Community'},
+        ]
+      }
     },
     {
       name: 'title',
@@ -19,7 +29,6 @@ export default {
       name: 'slug',
       type: 'slug',
       title: 'Slug',
-      description: 'Some frontends will require a slug to be set to be able to show the post',
       isUnique: true,
       options: {
         source: 'title',

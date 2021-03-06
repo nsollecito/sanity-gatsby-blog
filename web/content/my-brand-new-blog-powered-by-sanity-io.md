@@ -1,22 +1,22 @@
 ---
 date: 2019-03-29T11:02:17Z
-_id: 'drafts.fb5f90f7-7980-4b2a-b9da-35cd0a23829a'
-_rev: 'e6iomi-59g-rew-3au-6vyjrnew7'
+_id: 'fb5f90f7-7980-4b2a-b9da-35cd0a23829a'
+_rev: 'lIX2YGW514RC2125qdQKQj'
 _type: 'post'
-lastmod: 2021-03-01T03:24:20Z
+lastmod: 2021-03-06T03:45:10Z
 authors: 
 - name: My Name
   slug: my-name
-blog: /blog
+blog: '/blog/engineering'
 categories: ['Structured content','Categorical advice']
 excerpt: Congratulations to me! I now have a blog powered by Hugo and Sanity.io.
 image: 'https://cdn.sanity.io/images/eazrcs7l/production/601ec1ad78c0c86575a82ef3a6f6442aa10a169a-1504x1000.png?w=600'
-publishDate: 2021-03-01T03:24:20.038Z
+publishDate: 2021-03-02T03:24:20.000Z
 slug: 'my-brand-new-blog-powered-by-sanity-io'
 title: 'My brand new blog powered by Sanity.io'
 ---
 
-Logs provide valuable information for troubleshooting application performance issues. But as your application scales and generates more logs, sifting through them becomes more difficult. Your logs may not provide enough context or human-readable data for understanding and resolving an issue, or you may need more information to help you interpret the IDs or error codes that application services log by default.  
+Dogs provide valuable information for troubleshooting application performance issues. But as your application scales and generates more logs, sifting through them becomes more difficult. Your logs may not provide enough context or human-readable data for understanding and resolving an issue, or you may need more information to help you interpret the IDs or error codes that application services log by default.  
 Datadog's [Enrichment Tables][table-docs] enable you to enrich logs with your own business-critical data, automatically providing more contextual information for quickly resolving application issues. Each table includes a primary key—an ID or code that appears as a field in your logs, such as an organization ID or a status code—and additional business data associated with that key. For example, the Enrichment Table below uses the merchant ID found in application logs as the primary key and maps each ID to a specific merchant name and point of contact.  
 {{< img src="enrichment_tables_v2.png" alt="Add context to your logs" border="true" caption="Create a new Enrichment Table to map customer and merchant data to IDs in your logs" popup="true">}}  
 To create a new table in Datadog, you can [upload][table-upload-docs] a comma-separated value file (CSV) and select which column you want to use as the primary key. You can then use the table with a [Lookup Processor][lookup-docs] to enrich your logs, as seen in the example processor below.  
