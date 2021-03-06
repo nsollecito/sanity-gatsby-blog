@@ -5,8 +5,10 @@ import {
   GoEye as ReviewIcon,
   GoCircleSlash as RejectedIcon,
   GoArchive as AllIcon,
-  GoPerson as AuthorIcon
+  GoPerson as AuthorIcon,
+  GoEye as EyeIcon,
 } from 'react-icons/go'
+import EditIcon from 'part:@sanity/base/edit-icon'
 
 import IframePreview from '../previews/IframePreview'
 
@@ -39,7 +41,14 @@ const blog = S.listItem()
                 S.document()
                   .documentId(documentId)
                   .schemaType('post')
-                  .views([S.view.form(), IframePreview()])
+                  .views([
+                    S.view.form()
+                      .icon(EditIcon),
+                    S.view
+                      .component(IframePreview)
+                      .title('Web preview')
+                      .icon(EyeIcon)
+                  ])
               )
           ),
         S.documentTypeListItem('post').title('All posts').icon(AllIcon),
