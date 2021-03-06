@@ -16,10 +16,10 @@ const assemblePostUrl = ({ displayed, options }) => {
     console.warn('Missing slug or previewURL', { slug, previewURL })
     return ''
   }
-  const dateSegment = format(publishedAt, 'YYYY/MM')
+  // const dateSegment = format(publishedAt, 'YYYY/MM')
   // const path = `/${dateSegment}/${slug.current}/`
-  const path = `/${slug.current}/`
-  return `${previewURL}/${path}`
+  // return `${previewURL}/blog${path}`
+  return `${previewURL}/${slug.current}`
 }
 
 const IframePreview = props => {

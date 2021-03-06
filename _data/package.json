@@ -1,0 +1,19 @@
+{
+  "name": "HugoData",
+  "version": "1.0.0",
+  "description": "Keeps Hugo in sync with Sanity.io instance",
+  "main": "index.js",
+  "author": "nick.sollecito@datadoghq.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js 8080"
+  },
+  "dependencies": {
+    "@sanity/block-content-to-markdown": "0.0.5",
+    "@sanity/client": "2.2.6",
+    "dotenv": "8.2.0",
+    "fs-extra": "9.1.0",
+    "json2yaml": "1.1.0",
+    "nodemon": "2.0.7"
+  }
+}

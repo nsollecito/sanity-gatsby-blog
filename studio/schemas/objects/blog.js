@@ -6,12 +6,13 @@ export default {
     {
       name: 'name', 
       type: 'string', 
-      title: 'Blog Name',
       options: {
         layout: 'dropdown',
         list: [
           {value: '/blog', title: 'The Monitor'},
-          {value: '/blog/engineering', title: 'Engineering'}
+          {value: '/blog/engineering', title: 'Engineering'},
+          {value: '/blog/pup-culture', title: 'Pup Culture'},
+          {value: '/blog/community', title: 'Community'},
         ]
       }
     },

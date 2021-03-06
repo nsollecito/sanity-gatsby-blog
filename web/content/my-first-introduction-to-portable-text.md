@@ -1,14 +1,17 @@
 ---
-_createdAt: '2019-03-29T22:06:39Z'
+date: 2019-03-29T22:06:39Z
 _id: 'ddaf3c38-4159-4470-9da8-33e3ead2ec9f'
-_rev: '1YSiyZRShC0n7WmN1jkBg5'
+_rev: '3p8Css1F5fRljRvMHXAzJx'
 _type: 'post'
-_updatedAt: '2021-02-20T02:26:03Z'
-authors: '[object Object]'
+lastmod: 2021-03-06T03:45:17Z
+authors: 
+- name: My Name
+  slug: my-name
+blog: '/blog/pup-culture'
 categories: ['Categorical advice']
-excerpt: 'undefined'
-image: 'https://cdn.sanity.io/images/amu3cvo8/production/3896734a6bff5fedfd3a94a0e587d960b1b22a4c-2250x1500.png?w=600'
-publishedAt: '2017-11-13T23:00:00.000Z'
+excerpt: Portable Text is a structured content approach to rich text with some pretty nifty capabilities.
+image: 'https://cdn.sanity.io/images/eazrcs7l/production/3896734a6bff5fedfd3a94a0e587d960b1b22a4c-2250x1500.png?w=600'
+publishDate: 2017-11-13T23:00:00.000Z
 slug: 'my-first-introduction-to-portable-text'
 title: 'My First Introduction to Portable Text'
 ---
