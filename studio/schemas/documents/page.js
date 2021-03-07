@@ -1,9 +1,11 @@
 import fields from './_pageDefaults'
+import MdFormatAlignLeft from "react-icons/md";
 
 export default {
   type: 'document',
   name: 'page',
   title: 'Page',
+  icon: MdFormatAlignLeft,
   fields: [
     ...fields,
     {

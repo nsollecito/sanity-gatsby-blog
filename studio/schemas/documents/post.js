@@ -1,9 +1,11 @@
 import {format} from 'date-fns'
+import { BiArchive } from 'react-icons/bi'
 
 export default {
   name: 'post',
   type: 'document',
   title: 'Blog Post',
+  icon: BiArchive,
   fields: [
     {
       name: 'blog', 

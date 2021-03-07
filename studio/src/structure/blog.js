@@ -8,6 +8,7 @@ import {
   GoPerson as AuthorIcon,
   GoEye as EyeIcon,
 } from 'react-icons/go'
+
 import EditIcon from 'part:@sanity/base/edit-icon'
 
 import IframePreview from '../previews/IframePreview'
@@ -37,19 +38,6 @@ const blog = S.listItem()
               .menuItems(S.documentTypeList('post').getMenuItems())
               // Only show posts with publish date earlier than now and that is not drafts
               .filter('_type == "post" && publishedAt < now() && !(_id in path("drafts.**"))')
-              .child((documentId) =>
-                S.document()
-                  .documentId(documentId)
-                  .schemaType('post')
-                  .views([
-                    S.view.form()
-                      .icon(EditIcon),
-                    S.view
-                      .component(IframePreview)
-                      .title('Web preview')
-                      .icon(EyeIcon)
-                  ])
-              )
           ),
         S.documentTypeListItem('post').title('All posts').icon(AllIcon),
         S.listItem()
