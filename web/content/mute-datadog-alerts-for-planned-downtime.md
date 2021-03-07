@@ -1,9 +1,9 @@
 ---
 date: 2021-02-16T02:38:15Z
-_id: 'e0a739cf-1d71-42c2-9544-bc69f19de109'
-_rev: 'jH2x7o1D8Avg0qKetIo4MF'
+_id: 'drafts.e0a739cf-1d71-42c2-9544-bc69f19de109'
+_rev: '0mrj0t-xpp-7md-z2j-r8ghdehed'
 _type: 'post'
-lastmod: 2021-03-06T03:44:48Z
+lastmod: 2021-03-07T00:58:23Z
 blog: '/blog'
 categories: ['Structured content']
 excerpt: Learn how muting alerts during planned downtime can help you more easily identify the most critical issues that may be occurring in your environment.
@@ -13,3 +13,4 @@ slug: 'mute-datadog-alerts-for-planned-downtime'
 title: 'Mute Datadog alerts for planned downtime'
 ---
 
+Body content making changes

@@ -7,8 +7,7 @@ import styles from './IframePreview.module.css'
 // Web preview configuration
 const remoteURL = 'https://silly-thompson-7ac0a5.netlify.app/'
 const localURL = 'http://localhost:1313'
-const previewURL =
-  window.location.hostname === 'localhost' ? localURL : remoteURL
+const previewURL = window.location.hostname === 'localhost' ? localURL : remoteURL
 
 /**
  * Explore more examples of previews:

@@ -8,8 +8,17 @@ const toYaml = require('json2yaml')
 
 // set up client
 const client = require('./utils/sanityClient')
+var keepAliveTimer = null;
 
-listenForChanges()
+
+listenForChanges();
+
+// keep alive
+function checkActivity(){
+    if(keepAliveTimer != null) clearTimeout(keepAliveTimer);
+    // 5 minute timer
+    keepAliveTimer = setTimeout(listenForChanges, 300 * 1000); 
+}
 
 // listen for updates
 function listenForChanges() {
@@ -19,7 +28,7 @@ function listenForChanges() {
         includeResult: false,
         includePreviousRevision: true
     }
-
+    
     const subscription = client.listen(query, params, options)
         .subscribe(item => {
             // console.log(JSON.stringify(item))
@@ -34,6 +43,8 @@ function listenForChanges() {
                     }
                 }, 1000)
             }
+            // keep alive
+            checkActivity();
         })
 }
 
